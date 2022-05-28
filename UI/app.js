@@ -147,15 +147,15 @@ function init() {
                 document.querySelector("#score_virat_kohli").textContent = data[0].class_probability[4]
 
                 if (data[0].class_probability[0] > 50)
-                document.querySelector("#resultHolder").innerHTML = `<img src="images/messi.jpeg">`
+                document.querySelector("#resultHolder").innerHTML = `<img class="rounded-circle custom-circle-image1" src="images/messi.jpeg">`
                 if (data[0].class_probability[1] > 50)
-                document.querySelector("#resultHolder").innerHTML = `<img src="images/sharapova.jpeg">`
+                document.querySelector("#resultHolder").innerHTML = `<img class="rounded-circle custom-circle-image1" src="images/sharapova.jpeg">`
                 if (data[0].class_probability[2] > 50)
-                document.querySelector("#resultHolder").innerHTML = `<img src="images/federer.jpeg">`
+                document.querySelector("#resultHolder").innerHTML = `<img class="rounded-circle custom-circle-image1" src="images/federer.jpeg">`
                 if (data[0].class_probability[3] > 50)
-                document.querySelector("#resultHolder").innerHTML = `<img src="images/serena.jpeg">`
+                document.querySelector("#resultHolder").innerHTML = `<img class="rounded-circle custom-circle-image1" src="images/serena.jpeg">`
                 if (data[0].class_probability[4] > 50)
-                document.querySelector("#resultHolder").innerHTML = `<img src="images/virat.jpeg">`          
+                document.querySelector("#resultHolder").innerHTML = `<img class="rounded-circle custom-circle-image1" src="images/virat.jpeg">`          
         });
     });
 

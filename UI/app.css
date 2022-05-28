@@ -30,7 +30,7 @@ border-style: dashed;
 font-family: MerriweatherRegular;
 font-size: 30px;
 line-height: initial;
-color: blue;
+color: red;
 text-align: center;
 visibility: true;
 }
@@ -53,3 +53,8 @@ text-align: left;
 background-color: #4CAF50;
 color: white;
 }
+
+.custom-circle-image1 {
+  width: 15vw;
+  height: 15vw;
+  }
