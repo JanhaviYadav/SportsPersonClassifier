@@ -7,8 +7,13 @@ CORS(app, resources={r"/api/*": {"origins": "*"}})
 app.config['CORS HEADERS'] = 'Content-Type'
 
 
+@app.route('/', methods=['GET'])
+def index():
+    return ""
+
+
 @app.route('/classify_image', methods=['GET', 'POST'])
-@cross_origin()
+#@cross_origin()
 def classify_image():
     image_data = request.form['image_data']
 
